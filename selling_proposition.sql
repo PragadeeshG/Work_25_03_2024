@@ -1,0 +1,15 @@
+create table if not exists selling_proposition(
+aspiring_content varchar(255) not null,
+unique_proposition varchar(255) null,
+product_uniqueness varchar(255) null,
+service_uniqueness varchar(255) null,
+usp_stage varchar(255) null,
+business_stage varchar(255) null,
+product_stand varchar(255) null,
+service_stand varchar(255) null,
+product_highlights varchar(255) null,
+service_highlights varchar(255) null,
+strategy_code varchar(255) null,
+competitots varchar(255) null,
+service_competitors varchar(255) null,
+constraint selling_proposition_pk  primary key(aspiring_content));
